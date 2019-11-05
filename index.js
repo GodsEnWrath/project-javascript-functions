@@ -52,3 +52,5 @@ console.log(alpha);
 console.log(betty);
 console.log(gamma);
 /////////////////////////////////////////////
+/////////////////////////////////////////////
+//https://gitlab.com/impactbyte/learn/course-fullstackweb/blob/master/chapters/projects/project-javascript-functions.md

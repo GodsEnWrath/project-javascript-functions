@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> </title>
+<script>
+
+function jumlah()
+{
+var x = document.getElementById("bill").value;
+var y = document.getElementById("bil2").value;
+
+<!-- var z = Number (x) + Number (y) alert(z); untuk mengeluarkan hasil di alert -->
+
+var z = document.getElementById("hasil");  
+<!--  z.value = Number (x) + Number (y); --> -->
+
+<!-- document.getElementById ("hasil").value = Number (x) + Number (y);             hasilnya sama kayak diatas -->
+
+if(x == "" || y == "")
+alert ("masukkan bilangan terlebih dulu");
+else
+z.value = Number (x) + Number (y);
+
+}
+
+
+
+
+</script>
+</head>
+
+<body>
+
+<input type="text" id="bill">
++
+<input type="text" id="bil2">
+<input type="button" value=" = " onclick="jumlah()">
+<input type="text" id="hasil">
+
+
+
+
+</body>
+</html>
